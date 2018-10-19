@@ -13,11 +13,6 @@ import static com.cmlteam.hibernate.HibernateProfilingInterceptorProperties.HIBE
 public class HibernateProfilingInterceptorConfiguration {
 
   @Bean
-  HibernateProfilingInterceptorProperties hibernateProfilingInterceptorProperties() {
-    return new HibernateProfilingInterceptorProperties();
-  }
-
-  @Bean
   HibernateProfilingInterceptor hibernateProfilingInterceptor(
       HibernateProfilingInterceptorProperties properties) {
     return new HibernateProfilingInterceptor(
