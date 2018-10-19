@@ -5,11 +5,11 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import static com.cmlteam.hibernate.HibernateProfilingInterceptorProperties.HIBERNATE_PROFILING_INTERCEPTOR_PROPS;
+import static com.cmlteam.hibernate.HibernateProfilingInterceptorProperties.HIBERNATE_PROFILING_INTERCEPTOR_PROPS_ENABLED;
 
 @Configuration
 @EnableConfigurationProperties
-@ConditionalOnProperty(value = HIBERNATE_PROFILING_INTERCEPTOR_PROPS)
+@ConditionalOnProperty(value = HIBERNATE_PROFILING_INTERCEPTOR_PROPS_ENABLED)
 public class HibernateProfilingInterceptorConfiguration {
 
   @Bean

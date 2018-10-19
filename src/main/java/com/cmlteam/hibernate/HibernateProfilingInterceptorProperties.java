@@ -7,6 +7,8 @@ import static com.cmlteam.hibernate.HibernateProfilingInterceptorProperties.HIBE
 @ConfigurationProperties(prefix = HIBERNATE_PROFILING_INTERCEPTOR_PROPS)
 public class HibernateProfilingInterceptorProperties {
   static final String HIBERNATE_PROFILING_INTERCEPTOR_PROPS = "hibernateProfilingInterceptor";
+  static final String HIBERNATE_PROFILING_INTERCEPTOR_PROPS_ENABLED =
+      HIBERNATE_PROFILING_INTERCEPTOR_PROPS + ".enabled";
 
   private boolean showSql;
   private int singleQueryCntOk;
