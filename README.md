@@ -1,1 +1,1 @@
-# hibernate-performance-interceptor
+# hibernate-profiling-interceptor
