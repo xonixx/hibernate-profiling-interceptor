@@ -4,16 +4,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.hibernate.EmptyInterceptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Component
 public class HibernateProfilingInterceptor extends EmptyInterceptor {
   private static final Logger log = LoggerFactory.getLogger(HibernateProfilingInterceptor.class);
 
@@ -24,10 +20,7 @@ public class HibernateProfilingInterceptor extends EmptyInterceptor {
   private final boolean showSql;
   private final int singleQueryCntOk;
 
-  @Autowired
-  public HibernateProfilingInterceptor(
-      @Value("${hibernateProfilingInterceptor.showSql}") boolean showSql,
-      @Value("${hibernateProfilingInterceptor.singleQueryCntOk}") int singleQueryCntOk) {
+  public HibernateProfilingInterceptor(boolean showSql, int singleQueryCntOk) {
     this.showSql = showSql;
     this.singleQueryCntOk = singleQueryCntOk;
   }
