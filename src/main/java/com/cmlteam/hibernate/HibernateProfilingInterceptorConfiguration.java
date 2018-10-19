@@ -9,7 +9,7 @@ import static com.cmlteam.hibernate.HibernateProfilingInterceptorProperties.HIBE
 
 @Configuration
 @EnableConfigurationProperties
-@ConditionalOnProperty(prefix = HIBERNATE_PROFILING_INTERCEPTOR_PROPS)
+@ConditionalOnProperty(value = HIBERNATE_PROFILING_INTERCEPTOR_PROPS)
 public class HibernateProfilingInterceptorConfiguration {
 
   @Bean
