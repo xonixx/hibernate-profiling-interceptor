@@ -13,6 +13,14 @@ public class HibernateProfilingInterceptorProperties {
   private boolean showSql;
   private int singleQueryCntOk;
 
+  public void setShowSql(boolean showSql) {
+    this.showSql = showSql;
+  }
+
+  public void setSingleQueryCntOk(int singleQueryCntOk) {
+    this.singleQueryCntOk = singleQueryCntOk;
+  }
+
   public boolean isShowSql() {
     return showSql;
   }
