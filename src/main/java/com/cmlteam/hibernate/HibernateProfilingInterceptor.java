@@ -1,5 +1,6 @@
 package com.cmlteam.hibernate;
 
+import com.cmlteam.util.Util;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.EmptyInterceptor;
 import org.slf4j.Logger;

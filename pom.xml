@@ -8,12 +8,24 @@
     <name>hibernate-profiling-interceptor</name>
     <url>https://www.cmlteam.com/</url>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.xonixx</groupId>
+            <artifactId>java-utils</artifactId>
+            <version>fe50a56e107809613155d6affaac3a6fb6bce6ac</version>
+        </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
