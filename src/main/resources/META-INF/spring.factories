@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.cmlteam.hibernate.HibernateProfilingInterceptorConfiguration
+com.cmlteam.hibernate.HibernateProfilingConfiguration
