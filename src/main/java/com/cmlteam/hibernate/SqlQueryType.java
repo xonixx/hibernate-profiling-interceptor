@@ -1,6 +1,6 @@
 package com.cmlteam.hibernate;
 
-public enum SqlQueryType {
+enum SqlQueryType {
   SELECT,
   INSERT,
   UPDATE,
