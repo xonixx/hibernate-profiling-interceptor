@@ -4,7 +4,7 @@
     <groupId>com.cmlteam</groupId>
     <artifactId>hibernate-profiling-interceptor</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
+    <version>0.9.2</version>
     <name>hibernate-profiling-interceptor</name>
     <url>https://www.cmlteam.com/</url>
 
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>com.github.xonixx</groupId>
             <artifactId>java-utils</artifactId>
-            <version>fe50a56e107809613155d6affaac3a6fb6bce6ac</version>
+            <version>v0.9.1</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -36,11 +36,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
             <version>2.1.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.1.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>

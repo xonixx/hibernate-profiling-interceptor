@@ -87,7 +87,7 @@ public class HibernateProfilingInterceptor extends EmptyInterceptor {
       StringBuilder sb =
           new StringBuilder()
               .append("SQLPERF [")
-              .append(Util.renderDelta(duration))
+              .append(Util.renderDuration(duration))
               .append("] (")
               .append(action)
               .append("): T=")
