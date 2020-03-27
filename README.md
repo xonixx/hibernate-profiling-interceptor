@@ -1,5 +1,7 @@
 # hibernate-profiling-interceptor
 
+[![](https://jitpack.io/v/xonixx/hibernate-profiling-interceptor.svg)](https://jitpack.io/#xonixx/hibernate-profiling-interceptor)
+
 Collects low-level SQL statistics per web-request and outputs as as single INFO log at the end of web request.
 
 Example output
